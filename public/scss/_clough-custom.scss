@@ -1,0 +1,17 @@
+.wrapper-home {
+  @include outer-container;
+}
+
+.headshot-home {
+  @include span-columns(6);
+}
+
+
+.hero {
+  background-image: url('../img/hero_bg.jpg');
+  height: 30em;
+}
+
+.masthead {
+  margin-bottom: 0;
+}
